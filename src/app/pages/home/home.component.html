@@ -1,0 +1,39 @@
+<section>
+    <h1>Simple Weather</h1>
+
+    <div class="mt-6">
+        <ul>
+            <li>
+                <a
+                    class="text-sm link float width-4"
+                    (click)="handleWeatherCall(22.9068,43.1729)"
+                    text-sm
+                >
+                    RIO DE JANEIRO
+                </a>
+            </li>
+            <li>
+                <a
+                    class="text-sm link float width-4"
+                    (click)="handleWeatherCall(39.9042, 116.4074)"
+                    text-sm
+                >
+                    BEIJING
+                </a>
+            </li>
+            <li>
+                <a
+                    class="text-sm link float width-4"
+                    (click)="handleWeatherCall(34.0549,118.2426)"
+                    text-sm
+                >
+                    LOS ANGELES
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <app-nexthours [RootWeather] = weatherData></app-nexthours>
+        <app-nextdays [DateWeather] = reduceWeatherData></app-nextdays>
+    </div>
+</section>

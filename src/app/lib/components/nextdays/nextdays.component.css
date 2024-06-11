@@ -1,0 +1,8 @@
+.nexthour-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block; /* Displays elements inline for horizontal scrolling */
+    width: 200px; /* Example width, adjust as needed */
+    vertical-align: top; /* Aligns the top of inline-block elements */
+  }

@@ -1,0 +1,9 @@
+<div class="float center">
+    <div>{{DateWeather.date | date : 'EEE, MMM d'}}</div>
+    <div>{{DateWeather.weather.description | titlecase}}</div>
+</div>
+
+<div class="">
+    <div class="float marginleft">{{DateWeather.highTemp | celciuspipe}}</div>
+    <div class="float">{{DateWeather.lowTemp | celciuspipe}}</div>
+</div>

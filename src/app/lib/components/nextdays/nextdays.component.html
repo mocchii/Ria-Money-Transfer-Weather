@@ -1,0 +1,6 @@
+<h2>Next 5 Days</h2>
+<div>
+    <div  *ngFor="let day of DateWeather | slice:0:5" >
+            <app-nextday  [DateWeather] = day></app-nextday>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+/* :host {
+    border: 1px solid grey;
+    background: blue;
+}
+:host(.customClass) {
+    background: blue;
+  } */
+
+   :host {
+    /* display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    float:left; */
+    text-align: center;
+  }
+  .bluetext{
+    color: lightblue;
+  }

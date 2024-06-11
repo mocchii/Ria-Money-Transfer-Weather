@@ -1,0 +1,8 @@
+<h2>Next Hours</h2>
+<div class="overflow">
+    <div  *ngFor="let hourly of RootWeather.list | slice:0:10" class="nexthour-container">
+            <app-nexthour  [WeatherList] = hourly></app-nexthour>
+    </div>
+</div>
+
+
